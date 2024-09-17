@@ -19,7 +19,7 @@ body {
 
 /* Header */
 header {
-    background: url('hero-image.jpg') no-repeat center center/cover;
+    background: url('https://www.solidbackgrounds.com/images/1600x900/1600x900-dark-green-solid-color-background.jpg') no-repeat center center/cover;
     min-height: 60vh; /* Adjusted height */
     color: white;
     display: flex;
@@ -41,6 +41,21 @@ nav {
 nav .logo {
     font-size: 1.5rem;
     font-weight: 700;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    /* Center the logo for mobile */
+    nav .logo {
+        text-align: center;
+        font-size: 3rem;
+        margin: 0 auto; /* Center horizontally */
+        display: block; /* Ensures the logo spans full width */
+    }
+
+    nav {
+        justify-content: center; /* Center the entire nav content */
+    }
 }
 
 nav .nav-links {
