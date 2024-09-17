@@ -20,7 +20,7 @@ body {
 /* Header */
 header {
     background: url('hero-image.jpg') no-repeat center center/cover;
-    height: 100vh;
+    min-height: 60vh; /* Adjusted height */
     color: white;
     display: flex;
     align-items: center;
@@ -28,6 +28,7 @@ header {
     flex-direction: column;
     text-align: center;
     position: relative;
+    padding: 50px 0; /* Added padding */
 }
 
 header::before {
@@ -73,7 +74,7 @@ nav .nav-links a {
 }
 
 .header-content {
-    margin-top: 50px;
+    margin-top: 20px; /* Reduced margin for less space */
 }
 
 .header-content h1 {
